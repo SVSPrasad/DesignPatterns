@@ -15,10 +15,10 @@ namespace DesignPatterns.FactoryPattern
             VehicleFactory factory = new ConcreteVehicle();
 
             IVehicle scooter = factory.GetVehicle("Scooter");
-            scooter.Drive(10);
+            scooter.Drive(100);
 
             IVehicle bike = factory.GetVehicle("Bike");
-            bike.Drive(20);
+            bike.Drive(400);
 
         }
 
